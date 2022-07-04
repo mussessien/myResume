@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+#content
+{
+  width: 1100px;
+  height:100%;
+/*  border: solid 1px #ADADAD; */
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+#title{
+  height: 50px;
+  text-align: center;
+}
+#title span{
+  display: inline-block;
+}
+#title #first-title{
+  font-size: 36px;
+  font-weight: bold;
+}
+#title #last-title{
+  margin-left: 20px;
+  font-size: 25px;
+}
+#cut-line{
+  height: 25px;
+  width: 100%;
+}
+#cut-line-left,#cut-line-right{
+  height: 25px;
+  background-color: #1296db;
+}
+#cut-line-left{
+  width: 3%;
+  float: left;
+}
+#cut-line-right{
+  width: 95%;
+  float: right;
+}
+.person-mes{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.mes-title img{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 0;
+}
+.mes-title span{
+  position: absolute;
+  left: 40px;
+  top: 5px;
+}
+.mes-title{
+  padding-top: 40px;
+  margin-top: 20px;
+  display: block;
+  position: relative;
+  font-size: 19px; 
+  color: #1296db;
+}
+.mes-detail
+{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.mes-detail ul{
+  overflow: hidden;
+  width: 70%;
+}
+.mes-detail ul li{
+  list-style-type: none;
+  margin-top: 5px;
+  float: right;
+  width: 37.7%;
+  text-align: left;
+}
+.mes-detail ul .mes-left{
+ float: left;
+ margin-right: 10px;
+ width: 50%;
+}
+#photo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 95px;
+  height: 128px;
+}
+#photo img{
+  width: 95px;
+  height: 128px;
+}
+.other-mes{
+  width: 100%;
+}
+.other-mes-header{
+  width: 100%;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.other-mes-header span{
+  display: inline-block;
+}
+.header-first{
+  width: 25%;
+}
+.header-middle{
+  width: 44%;
+}
+.header-last{
+  width: 25%;
+}
+.other-mes-title{
+  padding-bottom: 5px;
+}
+.practice-steep-content{
+  padding-left: 18px;
+  line-height: 30px;
+}
+.practice-steep li{
+  list-style-type: disc;
+  line-height: 30px;
+}
+.other-mes-title1{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.mes-title #cursorily{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 4px;
+}
+.blog{
+  margin-top: 10px;
+}
+.footer{
+	margin-bottom: 10px;
+}
+.li-title {
+  color: #333;
+  font-weight: bold;
+}
+.child-ul {
+  margin-left: 27px;
+  color: gray;
+  font-weight: 500;
+  line-height: 30px;
+}
+.practice-steep-two {
+  margin-top: 10px;
+}
+
